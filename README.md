@@ -9,6 +9,11 @@ A symbolic executor, Using an emulated backend, will execute it, corrupt the con
 <img width="406" height="334" alt="image" src="https://github.com/user-attachments/assets/20f02e9d-b37d-4a0a-bac7-67f9bf38ba5e" /> <br>
 <img width="233" height="156" alt="image" src="https://github.com/user-attachments/assets/9f8c138b-cdce-4331-93c1-a23ad1389acc" /> <br>
  
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
 
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
